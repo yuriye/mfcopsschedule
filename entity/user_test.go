@@ -2,6 +2,7 @@ package entity
 
 import (
 	"testing"
+	"github.com/yuriye/mfcopsschedule/entity"
 )
 
 func TestNewUser(t *testing.T) {
