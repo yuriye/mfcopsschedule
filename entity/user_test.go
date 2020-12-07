@@ -1,12 +1,13 @@
-package entity
+package entity_test
 
 import (
+	"github.com/stretchr/testify/assert"
+	"mfcopsschedule/entity"
 	"testing"
-	"github.com/yuriye/mfcopsschedule/entity"
 )
 
 func TestNewUser(t *testing.T) {
-	u, err := entity.NewUser("sjobs@apple.com", "new_password", "Steve", "Jobs")
+	u, err := entity.NewUser("sjobs@apple.com", "new_password", "Steve", "", "Jobs")
 	assert.Nil(t, err)
 	assert.Equal(t, u.FirstName, "Steve")
 	assert.NotNil(t, u.ID)
