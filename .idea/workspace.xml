@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="439a0b54-af7f-45cc-95a5-8e791c47c569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/entity/Filial.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/employee.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/employee_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/filial_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/office.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/office_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/productionCalendar.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/schedules.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/entity/entity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/error.go" beforeDir="false" afterPath="$PROJECT_DIR$/entity/error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/user_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/entity/user_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/office.go" beforeDir="false" afterPath="$PROJECT_DIR$/entity/office.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +72,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added go.mod into entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added go.mod into entity" />
+    <MESSAGE value="Some first entities added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some first entities added" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

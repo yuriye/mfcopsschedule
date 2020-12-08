@@ -6,6 +6,7 @@ type (
 		ID                ID
 		Name              string
 		DefaultEmployeers []*Employee
+		WeekSchedule      OfficeWeekSchedule
 	}
 )
 
