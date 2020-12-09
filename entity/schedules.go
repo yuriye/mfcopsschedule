@@ -23,6 +23,18 @@ type (
 		Days  [31]ScheduleDay
 	}
 
+	WorkedDay struct {
+		Date       time.Time
+		Type       TypeOfDay
+		Properties WorkingDayProperties
+	}
+
+	MonthWorkedHistory struct {
+		Year  int
+		Month int
+		Days  [31]WorkedDay
+	}
+
 	OfficeDay struct {
 		Open  bool
 		Start time.Time

@@ -31,3 +31,11 @@ func (o *Office) Validate() error {
 	}
 	return nil
 }
+
+func (o Office) SetWeekSchedule(schedule OfficeWeekSchedule) {
+	o.WeekSchedule = schedule
+}
+
+func (o Office) SetEmployees(employees []*Employee) {
+	o.DefaultEmployeers = employees
+}
