@@ -3,6 +3,11 @@ package entity
 import "time"
 
 type (
+	ProductionCalendar struct {
+		Year   int
+		Months [12]*[]int
+	}
+
 	WorkingDayProperties struct {
 		Start    time.Time
 		End      time.Time

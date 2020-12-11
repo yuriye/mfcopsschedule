@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="439a0b54-af7f-45cc-95a5-8e791c47c569" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/usecase/productioncalendar/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/user/inmem.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/user/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/user/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/user/service_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/Filial.go" beforeDir="false" afterPath="$PROJECT_DIR$/entity/filial.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/office.go" beforeDir="false" afterPath="$PROJECT_DIR$/entity/office.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/productionCalendar.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/entity/schedules.go" beforeDir="false" afterPath="$PROJECT_DIR$/entity/schedules.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +45,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/usecase/user" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gopro\mfcopsschedule\usecase\user" />
       <recent name="D:\gopro\mfcopsschedule\entity" />
     </key>
   </component>
@@ -80,7 +87,8 @@
     <MESSAGE value="Added go.mod into entity" />
     <MESSAGE value="Some first entities added" />
     <MESSAGE value="schedules.go created" />
-    <option name="LAST_COMMIT_MESSAGE" value="schedules.go created" />
+    <MESSAGE value="201209 17:45" />
+    <option name="LAST_COMMIT_MESSAGE" value="201209 17:45" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
